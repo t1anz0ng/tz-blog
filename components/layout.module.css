@@ -1,0 +1,53 @@
+.container {
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backToHome {
+    margin: 3rem 0 0;
+}
+
+.main {
+    width: 100%;
+    height: 90%;
+    position: relative;
+    text-align: center;
+    position: absolute;
+
+}
+.mainPageLeft{
+    float:left;
+    width: 50%;
+    height: 100%;
+}
+
+.mainPageLeft h1{
+    
+    background-color: transparent;
+    color: black;
+    font-family:  Helvetica, sans-serif;
+    border: 5px solid green;
+
+    
+}
+
+.title{
+    margin: 25%;
+    padding: 10px auto;
+}
+
+.homeTitle{
+    
+}
+
+.mainPageRight {
+    float:right;
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
