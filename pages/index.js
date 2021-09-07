@@ -11,24 +11,24 @@ export default function Home({ allPosts }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      {/* <section className={utilStyles.headingMd}>
+      {/* <section classNameName={utilStyles.headingMd}>
         <p>[About]</p>
         <p>
         </p>
       </section> */}
-      <div class={styles.main}>
-              <div class={styles.mainPageLeft}>
-                <div class={styles.title}>
+      <div className={styles.main}>
+              <div className={styles.mainPageLeft}>
+                <div className={styles.title}>
                   <h1>TianZong</h1>
                   <p>about</p>
                 </div>
               </div>
 
-              <div class={styles.mainPageRight}>
+              <div className={styles.mainPageRight}>
               <Image
                 priority
                 src="/chinawhite.jpg"
-                // className={utilStyles.borderCircle}
+                // classNameName={utilStyles.borderCircle}
                 layout="fill"
                 objectFit="cover"
                 alt={styles.name}

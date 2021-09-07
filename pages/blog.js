@@ -19,7 +19,7 @@ export default function ({ allPosts }) {
         <title>{siteTitle}</title>
       </Head>
       
-
+{/* 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headlingLg}>Blog</h2>
         <ul className={utilStyles.list}>
@@ -33,7 +33,7 @@ export default function ({ allPosts }) {
             </li> 
           ))}
         </ul>
-      </section>
+      </section> */}
     </Layout>
   )
 }
