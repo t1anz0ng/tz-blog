@@ -19,8 +19,13 @@ export default function Home({ allPosts }) {
       <div className={styles.main}>
               <div className={styles.mainPageLeft}>
                 <div className={styles.title}>
-                  <h1>TianZong</h1>
-                  <p>about</p>
+                  <h1 data-sizing='intrinsic'>TianZong</h1>
+                </div>
+
+                <div className={styles.lists}>
+                  <h2>Locations/目的地</h2>
+                  <h2>Curated/集合</h2>
+                  <h2>About/关于我</h2>
                 </div>
                 <div>
                 <h3> CHINA WHITE(5.12b), 白山, 阳朔 2021.2</h3>

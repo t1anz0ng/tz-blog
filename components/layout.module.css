@@ -28,11 +28,7 @@
 }
 
 .mainPageLeft h1{
-    
     background-color: transparent;
-    color: black;
-    font-family:  Helvetica, sans-serif;
-    border: 5px solid green;   
 }
 
 .mainPageLeft h3{
@@ -40,7 +36,6 @@
     right: 0;
     bottom: 0;
     width: max-content;
-    margin-left: auto;
     margin-right: 1%;
 
     font-size: 12px;
@@ -51,8 +46,40 @@
 }
 
 .title{
-    margin: 25%;
-    padding: 10px auto;
+    position: relative;
+    top: 20%;
+}
+.title h1{
+    font-size: 48px;;
+    margin: 0 auto;
+    text-align:center;
+    width: min-content;
+    height: 10%;
+    color: black;
+    font-family:  Helvetica, sans-serif;
+    border: 5px solid green;
+}
+
+.lists{
+    vertical-align:middle;
+    margin: 20% auto;
+    position: relative;
+    top:30%;
+    text-align:center;
+    width: min-content;
+    font-weight: normal;
+    white-space:nowrap;
+}
+.lists h2{
+    width: min-content;
+    font-size: 12px;
+    font-family: SourceCode Pro, Helvetica;
+    list-style-type: none;
+}
+.lists h2:hover{
+    list-style-type: none;
+    color: white;
+    background-color:black;
 }
 
 .homeTitle{
