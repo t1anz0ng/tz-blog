@@ -23,9 +23,9 @@ export default function Home({ allPosts }) {
                 </div>
 
                 <div className={styles.lists}>
-                  <h2>Locations/目的地</h2>
-                  <h2>Curated/集合</h2>
-                  <h2>About/关于我</h2>
+                  <h2>目的地 /Locations<a></a></h2>
+                  <h2>集合 /Curated<a></a></h2>
+                  <h2>关于我 /About<a></a></h2>
                 </div>
                 <div>
                 <h3> CHINA WHITE(5.12b), 白山, 阳朔 2021.2</h3>

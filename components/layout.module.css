@@ -22,13 +22,55 @@
 }
 .mainPageLeft{
     float:left;
-    width: 50%;
+    width: 40%;
     height: 100%;
     position: relative;
 }
 
 .mainPageLeft h1{
     background-color: transparent;
+}
+
+.title{
+    position: absolute;
+    top: 20%;
+}
+.title h1{
+    font-size: 36px;;
+    margin-top:10%;
+    margin-left:10%;
+    margin-bottom: 50;
+    text-align:center;
+    width: min-content;
+    height: 10%;
+    color: black;
+    font-family:  Helvetica, sans-serif;
+    border: 3px solid green;
+}
+
+.lists{
+    position: absolute;
+    vertical-align:middle;
+    margin-top: 50px;
+    margin-left:10%;
+    position: relative;
+    top:30%;
+    text-align:center;
+    width: min-content;
+    font-weight: normal;
+    white-space:nowrap;
+}
+.lists h2{
+    width: min-content;
+    font-size: 12px;
+    font-family: SourceCode Pro, Helvetica;
+    list-style-type: none;
+    color:black;
+}
+.lists h2:hover{
+    list-style-type: none;
+    color: white;
+    background-color:black;
 }
 
 .mainPageLeft h3{
@@ -45,50 +87,11 @@
     font-family: Helvetica, sans-serif;
 }
 
-.title{
-    position: relative;
-    top: 20%;
-}
-.title h1{
-    font-size: 48px;;
-    margin: 0 auto;
-    text-align:center;
-    width: min-content;
-    height: 10%;
-    color: black;
-    font-family:  Helvetica, sans-serif;
-    border: 5px solid green;
-}
 
-.lists{
-    vertical-align:middle;
-    margin: 20% auto;
-    position: relative;
-    top:30%;
-    text-align:center;
-    width: min-content;
-    font-weight: normal;
-    white-space:nowrap;
-}
-.lists h2{
-    width: min-content;
-    font-size: 12px;
-    font-family: SourceCode Pro, Helvetica;
-    list-style-type: none;
-}
-.lists h2:hover{
-    list-style-type: none;
-    color: white;
-    background-color:black;
-}
-
-.homeTitle{
-    
-}
 
 .mainPageRight {
     float:right;
     position: relative;
-    width: 50%;
+    width: 60%;
     height: 100%;
 }
