@@ -22,6 +22,9 @@ export default function Home({ allPosts }) {
                   <h1>TianZong</h1>
                   <p>about</p>
                 </div>
+                <div>
+                <h3> CHINA WHITE(5.12b), 白山, 阳朔 2021.2</h3>
+                </div>
               </div>
 
               <div className={styles.mainPageRight}>
