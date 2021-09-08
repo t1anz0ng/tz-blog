@@ -24,6 +24,7 @@
     float:left;
     width: 50%;
     height: 100%;
+    position: relative;
 }
 
 .mainPageLeft h1{
@@ -35,15 +36,16 @@
 }
 
 .mainPageLeft h3{
-    margin-top: 0;
-    margin-bottom: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     width: max-content;
     margin-left: auto;
     margin-right: 1%;
 
     font-size: 12px;
     font-weight: bold;
-    background-color: gray;
+    background-color: white;
     color: black;
     font-family: Helvetica, sans-serif;
 }
