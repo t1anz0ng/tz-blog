@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
+// import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
 import Image from 'next/image'
 
@@ -23,12 +23,12 @@ export default function Home({ allPosts }) {
                 </div>
 
                 <div className={styles.lists}>
-                  <h2>目的地 /Locations<a></a></h2>
-                  <h2>集合 /Curated<a></a></h2>
-                  <h2>关于我 /About<a></a></h2>
+                  <h2>Locations<a></a></h2>
+                  <h2>Curated<a></a></h2>
+                  <h2>About<a></a></h2>
                 </div>
                 <div>
-                <h3> CHINA WHITE(5.12b), 白山, 阳朔 2021.2</h3>
+                
                 </div>
               </div>
 
@@ -41,6 +41,7 @@ export default function Home({ allPosts }) {
                 objectFit="cover"
                 alt={styles.name}
               />
+              <h3>  CHINA WHITE(5.12b), 白山, 阳朔 2021.2</h3>
               </div>
             </div>
 
