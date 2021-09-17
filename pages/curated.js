@@ -15,7 +15,7 @@ export async function getStaticProps(){
 
 export default function AllPosts({ allPosts }) {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -23,7 +23,6 @@ export default function AllPosts({ allPosts }) {
         {allPosts.map(({id,date,title,cover,list}) =>(
           <div className={utilStyles.listItem} key={id}>
             <h3>{title}</h3>
-            <p>{date}</p>
             <div className={utilStyles.listItemPic}>
                 <Image 
                     priority
@@ -34,7 +33,6 @@ export default function AllPosts({ allPosts }) {
                     layout="responsive"
                     />
             </div>
-            <p>{list}</p>
           </div>
           
         ))}

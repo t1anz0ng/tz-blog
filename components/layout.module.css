@@ -9,8 +9,15 @@
     align-items: center;
 }
 
-.backToHome {
+.backToHome  {
     margin: 3rem 0 0;
+    background-color:black;
+    bottom: 0;
+    padding: 0.2em;
+    position: fixed;
+}
+.backToHome a {
+    color: white;
 }
 
 .main {
