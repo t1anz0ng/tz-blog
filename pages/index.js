@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Layout, { siteTitle } from '../components/layout'
 // import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
@@ -23,9 +24,9 @@ export default function Home({ allPosts }) {
                 </div>
 
                 <div className={styles.lists}>
-                  <h2>Locations<a></a></h2>
-                  <h2>Curated<a></a></h2>
-                  <h2>About<a></a></h2>
+                  <Link href="/locations"><a>Locations</a></Link><br></br>
+                  <Link href="/curated"><a>Curated</a></Link><br></br>
+                  <Link href="/about"><a>About</a></Link><br></br>
                 </div>
                 <div>
                 

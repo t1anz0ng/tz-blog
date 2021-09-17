@@ -52,14 +52,14 @@
     top: 20%;
 
 }
-.lists h2{
+.lists a{
     width: min-content;
     font-size: 12px;
     font-family: SourceCode Pro, Helvetica;
     list-style-type: none;
     color:black;
 }
-.lists h2:hover{
+.lists a:hover{
     list-style-type: none;
     color: white;
     background-color:black;

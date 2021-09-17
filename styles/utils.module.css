@@ -45,8 +45,27 @@
   
   .listItem {
     margin: 0 0 1.25rem;
+    /* border: 1px solid red; */
+    width: 40%;
+    text-align:center;
+    overflow: hidden;
+    display: inline-block;
   }
-  
+  .listItem h3{
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .listItem p{
+    font-size: 12px;
+  }
+  .listItemPic{
+    /* float:right; */
+    position: relative;
+    margin: 0 10%;
+    /* padding: 50px; */
+    width: 100%;
+
+  }
   .lightText {
     color: #666;
   }
