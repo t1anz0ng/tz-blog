@@ -1,5 +1,6 @@
 ---
 title: 'Falls'
+path: 'fall'
 date: '2021-09-17'
 cover: '/climb/fall-laoyang.jpg'
 list: 

@@ -1,5 +1,6 @@
 ---
-title: 'B'
+title: 'Boulder'
+path: 'boulder'
 date: '2021-09-18'
 cover: '/climb/boulder.jpg'
 list: 

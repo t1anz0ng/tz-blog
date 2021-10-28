@@ -20,9 +20,9 @@ export default function AllPosts({ allPosts }) {
         <title>{siteTitle}</title>
       </Head>
         <h1 className={utilStyles.headlingLg}>Curated</h1>
-        {allPosts.map(({id,date,title,cover,list}) =>(
+        {allPosts.map(({id,path,date,title,cover,list}) =>(
           <div className={utilStyles.listItem} key={id}>
-            <h3>{title}</h3>
+            <h3><a href={"/posts/" + path}>{title}</a></h3>
             <div className={utilStyles.listItemPic}>
                 <Image 
                     priority
