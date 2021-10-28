@@ -1,6 +1,11 @@
 
 .container {
+    
+}
 
+@font-face {
+    font-family: "AmaticSCBold";
+    src: url("/fonts/AmaticSC-Bold.ttf");
 }
 
 .header {
@@ -28,6 +33,7 @@
     width: 40%;
     height: 100%;
     position: fixed;
+    background-color: #172815;
 }
 
 .mainPageLeft h1{
@@ -38,38 +44,39 @@
     position: relative;
     top: 20%;
     /* margin:  auto; */
-    left: 20%;
+    left: 15%;
 }
 .title h1{
-    font-size: 48px;;
+    font-size: 5em;
     text-align:center;
-    padding: 0.2em;
+    /* padding: 0.2em; */
     width: min-content;
-    color: black;
-    font-family:  Helvetica, sans-serif;
-    border: 3px solid green;
+    color: #82a565;
+    font-family: AmaticSCBold, sans-serif;
+    /* border: 3px solid #6E3C3B; */
 }
 
 .lists{
     position: absolute;
-    vertical-align:middle;
+    vertical-align: middle;
     margin-top: 50px;
     left: 25%;
     position: relative;
-    top: 20%;
+    top: 15%;
 
 }
 .lists a{
     width: min-content;
-    font-size: 12px;
-    font-family: SourceCode Pro, Helvetica;
+    line-height: 3;
+    font-size: 14px;
+    font-family: San Francisco, Helvetica;
     list-style-type: none;
-    color:black;
+    color:white;
 }
 .lists a:hover{
     list-style-type: none;
-    color: white;
-    background-color:black;
+    color: black;
+    background-color:white;
 }
 
 .mainPageRight h3{
