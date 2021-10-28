@@ -7,4 +7,9 @@ list:
   - "y.jpg"
 ---
 
-qaqwasdasdavceqw
+![tingzi](/climb/boulder/tz-0.jpg)
+Tingzi - V5 - Qingdao
+
+
+![Tianzong](/climb/boulder/buildering-0.jpg)
+Tianzong -  Shanghai
