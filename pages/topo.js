@@ -9,6 +9,7 @@ export default function Topo(){
           <Head>
             <title>{siteTitle}</title>
           </Head>
+            
             <h1>Guidebook</h1>
 
             <h2>Baiyanxia/白岩下</h2>
@@ -19,11 +20,11 @@ export default function Topo(){
             <div>
                 <Image 
                     priority
-                    src="https://glutclimbing-1304539596.cos.ap-shanghai.myqcloud.com/cover.jp2"
+                    src="/cover.jpg"
                     alt="cover pic"
-                    height={400}
-                    width={800}
-                    layout="intrinsic"
+                    height={330}
+                    width={546}
+                    layout="fixed"
                     />
             </div>
             
