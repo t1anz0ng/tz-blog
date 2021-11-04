@@ -14,7 +14,12 @@ export default function About(){
               <div className={styles.aboutPageLeft}>
                 <div className={styles.title}>
                   <h1 data-sizing='intrinsic'>About</h1>
-                  <p>Climber</p>
+                  <h2>甜粽 TianZong</h2>
+                  <p>Climb, trying to be a darn good climber in all dicipline.</p>
+                  <p>Take photos, trying to be a photographer at the crag.</p>
+                  <p>Self-coach in climbing, trying to help others.</p>
+                  <p>...</p>
+                  <p>tianzong48@gmail.com</p>
                 </div>
                   
               </div>

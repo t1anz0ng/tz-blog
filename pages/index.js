@@ -25,7 +25,7 @@ export default function Home({ allPosts }) {
                 <div className={styles.lists}>
                   <Link href="/topo"><a>Guide Book</a></Link><br></br>
                   <Link href="/curated"><a>Curated</a></Link><br></br>
-                  <Link href="/about"><a>About</a></Link><br></br>
+                  <Link href="/about"><a>About Me</a></Link><br></br>
                 </div>
                 <div>
                 
