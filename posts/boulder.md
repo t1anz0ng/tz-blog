@@ -11,6 +11,10 @@ list:
 ![tingzi](/climb/boulder/tz-0.jpg)
 Tingzi - V5 - Qingdao
 
+![Laoxiao](/climb/boulder/laoxiao.jpg)
+Laoxiao -  V4 - Qingdao
 
 ![Tianzong](/climb/boulder/buildering-0.jpg)
 Tianzong -  Shanghai
+
+

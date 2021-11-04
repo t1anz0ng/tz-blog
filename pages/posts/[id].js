@@ -29,10 +29,6 @@ export default function Post({postData}) {
       <title>{postData.title}</title>
     </Head>
       <h1>{postData.title}</h1>
-      <br/>
-      <em>id:</em> {postData.id}
-      <br />
-      {/* <em>date:</em>{postData.date} */}
       <Date dateString={postData.date} />
 
       <br />

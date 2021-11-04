@@ -35,9 +35,29 @@
     position: fixed;
     background-color: #172815;
 }
+.aboutPageLeft{
+    /* float:left; */
+    width: 40%;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+}
 
 .mainPageLeft h1{
     background-color: transparent;
+}
+.aboutPageLeft h1{
+    background-color: transparent;
+}
+
+.mainPageLeft p{
+    background-color: transparent;
+    position: relative;
+    top: 20%;
+    /* margin:  auto; */
+    left: 15%;
+    color: #fff;
+    font-size: 1em;
 }
 
 .title{
