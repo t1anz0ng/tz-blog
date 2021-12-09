@@ -123,4 +123,7 @@
     right: 0;
 }
 
-
+.posts{
+    width: 80%;
+    margin: 0 auto;
+}
